@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: aquamarine;
+    width: 50%;
+    height: 50vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main h1 {
+    margin: 20px 0;
+}
+
+main input {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+main button {
+    margin: 20px 0;
+    border: none;
+    background-color: rgb(215, 255, 242);
+    color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+}
